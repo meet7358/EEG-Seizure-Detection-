@@ -1,0 +1,70 @@
+body{
+    background-image: url("back1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.navbar {
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 8%;
+    border-radius: 50px;
+    box-shadow: 2px 3px 6px rgb(200, 200, 200);
+    margin-left: -120px;
+}
+
+nav {
+    text-align: center;
+    padding-right: 500px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
+    position: relative;
+    letter-spacing: o.5px;
+    padding: 0 10px;
+}
+nav a:after{
+    content: "";
+    position: absolute;
+    background-color: #a0a0a0;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+nav a:hover:after {
+    width: 100%;
+}
+.navigation-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    position: fixed;
+    bottom: 202px;
+    right: 335px;
+}
+
+.navigation-button:hover {
+    background-color: #45a049;
+}
+
